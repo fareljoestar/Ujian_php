@@ -70,7 +70,7 @@ echo "<b>Apakah Fu Sembuh Atau Tidak ? </b>";
 echo "<br>";
 echo "<br>";
 $kaloriperminggu = "$kalori * 7";
-if ($kaloriperminggu >= $seminggu && $hari >= $Perminggu){
+if ($kaloriperminggu >= $seminggu && $senin >= $Perminggu){
   echo "Fu Sudah Sehat :)";
 }else{
   echo "Fu Masih Sakit :(";
