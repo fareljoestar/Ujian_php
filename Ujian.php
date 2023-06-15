@@ -52,7 +52,7 @@ $minggu = 4;
 $batas = 8;
 
 //Jumlah Waktu Istirahat perminggu
-$Perminggu = $senin + $selasa + $rabu + $kamis + $jumat + $sabtu + $minggu;
+$Perminggu_istirahat= $senin + $selasa + $rabu + $kamis + $jumat + $sabtu + $minggu;
 
 //Perhari
 echo ("Fu Beristirahat Pada Hari senin Adalah Selama " . $senin . " jam" . "<br>");
@@ -70,7 +70,7 @@ echo "<b>Apakah Fu Sembuh Atau Tidak ? </b>";
 echo "<br>";
 echo "<br>";
 $kaloriperminggu = "$kalori * 7";
-if ($kaloriperminggu >= $seminggu && $senin >= $Perminggu){
+if ($perminggu >= $seminggu && $hari >= $Perminggu_istirahat){
   echo "Fu Sudah Sehat :)";
 }else{
   echo "Fu Masih Sakit :(";
